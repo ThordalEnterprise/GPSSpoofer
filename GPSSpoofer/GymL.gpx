@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="GPX Generator"
+schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+	<wpt lat="57.053072" lon="9.913474">
+		<ele>0</ele>
+		<time>2021-08-04T22:03:56</time>
+	</wpt>
+	<wpt lat="57.053076" lon="9.913531">
+		<ele>0</ele>
+		<time>2021-08-04T22:03:58</time>
+	</wpt>
+	<wpt lat="57.053072" lon="9.913474">
+		<ele>0</ele>
+		<time>2021-08-04T22:04:01</time>
+	</wpt>
+</gpx>

@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16096C6226C7F5300038971D /* GymM.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 16096C6126C7F5300038971D /* GymM.gpx */; };
+		1628E89326D17D7E005D513D /* Torrevieja1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1628E89226D17D7E005D513D /* Torrevieja1.gpx */; };
+		1635D90428BA585B006F3A01 /* GymQ.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1635D90328BA585A006F3A01 /* GymQ.gpx */; };
+		16628B8F26D3CFE800632043 /* Spain_A.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 16628B8E26D3CFE800632043 /* Spain_A.gpx */; };
+		16702B04266CCD53001D92C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16702B03266CCD53001D92C7 /* AppDelegate.m */; };
+		16702B07266CCD53001D92C7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16702B06266CCD53001D92C7 /* SceneDelegate.m */; };
+		16702B0A266CCD53001D92C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16702B09266CCD53001D92C7 /* ViewController.m */; };
+		16702B0D266CCD53001D92C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16702B0B266CCD53001D92C7 /* Main.storyboard */; };
+		16702B0F266CCD59001D92C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16702B0E266CCD59001D92C7 /* Assets.xcassets */; };
+		16702B12266CCD59001D92C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16702B10266CCD59001D92C7 /* LaunchScreen.storyboard */; };
+		16702B15266CCD59001D92C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16702B14266CCD59001D92C7 /* main.m */; };
+		16702B1F266CCD5A001D92C7 /* GPSSpooferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16702B1E266CCD5A001D92C7 /* GPSSpooferTests.m */; };
+		16702B2A266CCD5A001D92C7 /* GPSSpooferUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16702B29266CCD5A001D92C7 /* GPSSpooferUITests.m */; };
+		16702B44266CCD76001D92C7 /* GymB.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 16702B37266CCD74001D92C7 /* GymB.gpx */; };
+		16702B46266CCD76001D92C7 /* GymC.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 16702B39266CCD75001D92C7 /* GymC.gpx */; };
+		16702B48266CCD76001D92C7 /* GymE.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 16702B3B266CCD75001D92C7 /* GymE.gpx */; };
+		16702B49266CCD76001D92C7 /* GymA.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 16702B3C266CCD75001D92C7 /* GymA.gpx */; };
+		16702B4A266CCD76001D92C7 /* GymG.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 16702B3D266CCD75001D92C7 /* GymG.gpx */; };
+		16702B4C266CCD76001D92C7 /* GymD.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 16702B3F266CCD75001D92C7 /* GymD.gpx */; };
+		16702B4D266CCD76001D92C7 /* Vejen1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 16702B40266CCD76001D92C7 /* Vejen1.gpx */; };
+		16702B4E266CCD76001D92C7 /* GymF.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 16702B41266CCD76001D92C7 /* GymF.gpx */; };
+		1674244E26BB28D3004C82EA /* GymH.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1674244D26BB28D3004C82EA /* GymH.gpx */; };
+		1674245026BB294E004C82EA /* GymI.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1674244F26BB294E004C82EA /* GymI.gpx */; };
+		1674245226BB29A0004C82EA /* GymJ.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1674245126BB29A0004C82EA /* GymJ.gpx */; };
+		1674245426BB29E5004C82EA /* GymK.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1674245326BB29E5004C82EA /* GymK.gpx */; };
+		1674245626BB2A42004C82EA /* GymL.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1674245526BB2A41004C82EA /* GymL.gpx */; };
+		1674245826BB366E004C82EA /* Kildeparken.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1674245726BB366E004C82EA /* Kildeparken.gpx */; };
+		16910ED326D0192B0018F547 /* Spain_Rute1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 16910ED226D0192B0018F547 /* Spain_Rute1.gpx */; };
+		16910ED526D01F080018F547 /* Spain_E.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 16910ED426D01F080018F547 /* Spain_E.gpx */; };
+		16910ED726D02AA10018F547 /* Spain_F.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 16910ED626D02AA10018F547 /* Spain_F.gpx */; };
+		1698FBC326D11A5F00EBE43E /* Spain_B.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1698FBC226D11A5E00EBE43E /* Spain_B.gpx */; };
+		1698FBC526D11D6500EBE43E /* Spain_C.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1698FBC426D11D6400EBE43E /* Spain_C.gpx */; };
+		1698FBC926D11DA000EBE43E /* Spain_D.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1698FBC826D11DA000EBE43E /* Spain_D.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16702B1B266CCD5A001D92C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16702AF7266CCD53001D92C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16702AFE266CCD53001D92C7;
+			remoteInfo = GPSSpoofer;
+		};
+		16702B26266CCD5A001D92C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16702AF7266CCD53001D92C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16702AFE266CCD53001D92C7;
+			remoteInfo = GPSSpoofer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16096C6126C7F5300038971D /* GymM.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GymM.gpx; sourceTree = "<group>"; };
+		1628E89226D17D7E005D513D /* Torrevieja1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Torrevieja1.gpx; sourceTree = "<group>"; };
+		1635D90328BA585A006F3A01 /* GymQ.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GymQ.gpx; sourceTree = "<group>"; };
+		16628B8E26D3CFE800632043 /* Spain_A.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Spain_A.gpx; sourceTree = "<group>"; };
+		16702AFF266CCD53001D92C7 /* GPSSpoofer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSSpoofer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16702B02266CCD53001D92C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16702B03266CCD53001D92C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16702B05266CCD53001D92C7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		16702B06266CCD53001D92C7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		16702B08266CCD53001D92C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16702B09266CCD53001D92C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16702B0C266CCD53001D92C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16702B0E266CCD59001D92C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16702B11266CCD59001D92C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16702B13266CCD59001D92C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16702B14266CCD59001D92C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16702B1A266CCD5A001D92C7 /* GPSSpooferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSSpooferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16702B1E266CCD5A001D92C7 /* GPSSpooferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSSpooferTests.m; sourceTree = "<group>"; };
+		16702B20266CCD5A001D92C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16702B25266CCD5A001D92C7 /* GPSSpooferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSSpooferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16702B29266CCD5A001D92C7 /* GPSSpooferUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSSpooferUITests.m; sourceTree = "<group>"; };
+		16702B2B266CCD5A001D92C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16702B37266CCD74001D92C7 /* GymB.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GymB.gpx; sourceTree = "<group>"; };
+		16702B39266CCD75001D92C7 /* GymC.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GymC.gpx; sourceTree = "<group>"; };
+		16702B3B266CCD75001D92C7 /* GymE.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GymE.gpx; sourceTree = "<group>"; };
+		16702B3C266CCD75001D92C7 /* GymA.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GymA.gpx; sourceTree = "<group>"; };
+		16702B3D266CCD75001D92C7 /* GymG.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GymG.gpx; sourceTree = "<group>"; };
+		16702B3F266CCD75001D92C7 /* GymD.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GymD.gpx; sourceTree = "<group>"; };
+		16702B40266CCD76001D92C7 /* Vejen1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Vejen1.gpx; sourceTree = "<group>"; };
+		16702B41266CCD76001D92C7 /* GymF.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GymF.gpx; sourceTree = "<group>"; };
+		1674244D26BB28D3004C82EA /* GymH.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GymH.gpx; sourceTree = "<group>"; };
+		1674244F26BB294E004C82EA /* GymI.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GymI.gpx; sourceTree = "<group>"; };
+		1674245126BB29A0004C82EA /* GymJ.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GymJ.gpx; sourceTree = "<group>"; };
+		1674245326BB29E5004C82EA /* GymK.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GymK.gpx; sourceTree = "<group>"; };
+		1674245526BB2A41004C82EA /* GymL.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GymL.gpx; sourceTree = "<group>"; };
+		1674245726BB366E004C82EA /* Kildeparken.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Kildeparken.gpx; sourceTree = "<group>"; };
+		16910ED226D0192B0018F547 /* Spain_Rute1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Spain_Rute1.gpx; sourceTree = "<group>"; };
+		16910ED426D01F080018F547 /* Spain_E.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Spain_E.gpx; sourceTree = "<group>"; };
+		16910ED626D02AA10018F547 /* Spain_F.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Spain_F.gpx; sourceTree = "<group>"; };
+		1698FBC226D11A5E00EBE43E /* Spain_B.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Spain_B.gpx; sourceTree = "<group>"; };
+		1698FBC426D11D6400EBE43E /* Spain_C.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Spain_C.gpx; sourceTree = "<group>"; };
+		1698FBC826D11DA000EBE43E /* Spain_D.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Spain_D.gpx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16702AFC266CCD53001D92C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16702B17266CCD5A001D92C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16702B22266CCD5A001D92C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16702AF6266CCD53001D92C7 = {
+			isa = PBXGroup;
+			children = (
+				16702B01266CCD53001D92C7 /* GPSSpoofer */,
+				16702B1D266CCD5A001D92C7 /* GPSSpooferTests */,
+				16702B28266CCD5A001D92C7 /* GPSSpooferUITests */,
+				16702B00266CCD53001D92C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16702B00266CCD53001D92C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16702AFF266CCD53001D92C7 /* GPSSpoofer.app */,
+				16702B1A266CCD5A001D92C7 /* GPSSpooferTests.xctest */,
+				16702B25266CCD5A001D92C7 /* GPSSpooferUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16702B01266CCD53001D92C7 /* GPSSpoofer */ = {
+			isa = PBXGroup;
+			children = (
+				1628E89226D17D7E005D513D /* Torrevieja1.gpx */,
+				16702B3C266CCD75001D92C7 /* GymA.gpx */,
+				16702B37266CCD74001D92C7 /* GymB.gpx */,
+				16702B39266CCD75001D92C7 /* GymC.gpx */,
+				16702B3F266CCD75001D92C7 /* GymD.gpx */,
+				16702B3B266CCD75001D92C7 /* GymE.gpx */,
+				16702B41266CCD76001D92C7 /* GymF.gpx */,
+				16702B3D266CCD75001D92C7 /* GymG.gpx */,
+				1674244D26BB28D3004C82EA /* GymH.gpx */,
+				1674244F26BB294E004C82EA /* GymI.gpx */,
+				1674245126BB29A0004C82EA /* GymJ.gpx */,
+				1674245326BB29E5004C82EA /* GymK.gpx */,
+				16096C6126C7F5300038971D /* GymM.gpx */,
+				1674245526BB2A41004C82EA /* GymL.gpx */,
+				1635D90328BA585A006F3A01 /* GymQ.gpx */,
+				16702B40266CCD76001D92C7 /* Vejen1.gpx */,
+				1674245726BB366E004C82EA /* Kildeparken.gpx */,
+				16628B8E26D3CFE800632043 /* Spain_A.gpx */,
+				1698FBC226D11A5E00EBE43E /* Spain_B.gpx */,
+				1698FBC426D11D6400EBE43E /* Spain_C.gpx */,
+				1698FBC826D11DA000EBE43E /* Spain_D.gpx */,
+				16910ED426D01F080018F547 /* Spain_E.gpx */,
+				16910ED626D02AA10018F547 /* Spain_F.gpx */,
+				16910ED226D0192B0018F547 /* Spain_Rute1.gpx */,
+				16702B02266CCD53001D92C7 /* AppDelegate.h */,
+				16702B03266CCD53001D92C7 /* AppDelegate.m */,
+				16702B05266CCD53001D92C7 /* SceneDelegate.h */,
+				16702B06266CCD53001D92C7 /* SceneDelegate.m */,
+				16702B08266CCD53001D92C7 /* ViewController.h */,
+				16702B09266CCD53001D92C7 /* ViewController.m */,
+				16702B0B266CCD53001D92C7 /* Main.storyboard */,
+				16702B0E266CCD59001D92C7 /* Assets.xcassets */,
+				16702B10266CCD59001D92C7 /* LaunchScreen.storyboard */,
+				16702B13266CCD59001D92C7 /* Info.plist */,
+				16702B14266CCD59001D92C7 /* main.m */,
+			);
+			path = GPSSpoofer;
+			sourceTree = "<group>";
+		};
+		16702B1D266CCD5A001D92C7 /* GPSSpooferTests */ = {
+			isa = PBXGroup;
+			children = (
+				16702B1E266CCD5A001D92C7 /* GPSSpooferTests.m */,
+				16702B20266CCD5A001D92C7 /* Info.plist */,
+			);
+			path = GPSSpooferTests;
+			sourceTree = "<group>";
+		};
+		16702B28266CCD5A001D92C7 /* GPSSpooferUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16702B29266CCD5A001D92C7 /* GPSSpooferUITests.m */,
+				16702B2B266CCD5A001D92C7 /* Info.plist */,
+			);
+			path = GPSSpooferUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16702AFE266CCD53001D92C7 /* GPSSpoofer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16702B2E266CCD5A001D92C7 /* Build configuration list for PBXNativeTarget "GPSSpoofer" */;
+			buildPhases = (
+				16702AFB266CCD53001D92C7 /* Sources */,
+				16702AFC266CCD53001D92C7 /* Frameworks */,
+				16702AFD266CCD53001D92C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPSSpoofer;
+			productName = GPSSpoofer;
+			productReference = 16702AFF266CCD53001D92C7 /* GPSSpoofer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16702B19266CCD5A001D92C7 /* GPSSpooferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16702B31266CCD5A001D92C7 /* Build configuration list for PBXNativeTarget "GPSSpooferTests" */;
+			buildPhases = (
+				16702B16266CCD5A001D92C7 /* Sources */,
+				16702B17266CCD5A001D92C7 /* Frameworks */,
+				16702B18266CCD5A001D92C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16702B1C266CCD5A001D92C7 /* PBXTargetDependency */,
+			);
+			name = GPSSpooferTests;
+			productName = GPSSpooferTests;
+			productReference = 16702B1A266CCD5A001D92C7 /* GPSSpooferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16702B24266CCD5A001D92C7 /* GPSSpooferUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16702B34266CCD5A001D92C7 /* Build configuration list for PBXNativeTarget "GPSSpooferUITests" */;
+			buildPhases = (
+				16702B21266CCD5A001D92C7 /* Sources */,
+				16702B22266CCD5A001D92C7 /* Frameworks */,
+				16702B23266CCD5A001D92C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16702B27266CCD5A001D92C7 /* PBXTargetDependency */,
+			);
+			name = GPSSpooferUITests;
+			productName = GPSSpooferUITests;
+			productReference = 16702B25266CCD5A001D92C7 /* GPSSpooferUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16702AF7266CCD53001D92C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					16702AFE266CCD53001D92C7 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					16702B19266CCD5A001D92C7 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 16702AFE266CCD53001D92C7;
+					};
+					16702B24266CCD5A001D92C7 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 16702AFE266CCD53001D92C7;
+					};
+				};
+			};
+			buildConfigurationList = 16702AFA266CCD53001D92C7 /* Build configuration list for PBXProject "GPSSpoofer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16702AF6266CCD53001D92C7;
+			productRefGroup = 16702B00266CCD53001D92C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16702AFE266CCD53001D92C7 /* GPSSpoofer */,
+				16702B19266CCD5A001D92C7 /* GPSSpooferTests */,
+				16702B24266CCD5A001D92C7 /* GPSSpooferUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16702AFD266CCD53001D92C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16702B4E266CCD76001D92C7 /* GymF.gpx in Resources */,
+				1635D90428BA585B006F3A01 /* GymQ.gpx in Resources */,
+				1674245426BB29E5004C82EA /* GymK.gpx in Resources */,
+				1698FBC526D11D6500EBE43E /* Spain_C.gpx in Resources */,
+				16702B49266CCD76001D92C7 /* GymA.gpx in Resources */,
+				16910ED526D01F080018F547 /* Spain_E.gpx in Resources */,
+				16702B44266CCD76001D92C7 /* GymB.gpx in Resources */,
+				16702B12266CCD59001D92C7 /* LaunchScreen.storyboard in Resources */,
+				16702B4D266CCD76001D92C7 /* Vejen1.gpx in Resources */,
+				1674245626BB2A42004C82EA /* GymL.gpx in Resources */,
+				16096C6226C7F5300038971D /* GymM.gpx in Resources */,
+				16910ED726D02AA10018F547 /* Spain_F.gpx in Resources */,
+				1628E89326D17D7E005D513D /* Torrevieja1.gpx in Resources */,
+				1698FBC926D11DA000EBE43E /* Spain_D.gpx in Resources */,
+				16628B8F26D3CFE800632043 /* Spain_A.gpx in Resources */,
+				1674245826BB366E004C82EA /* Kildeparken.gpx in Resources */,
+				16702B46266CCD76001D92C7 /* GymC.gpx in Resources */,
+				1674244E26BB28D3004C82EA /* GymH.gpx in Resources */,
+				1674245026BB294E004C82EA /* GymI.gpx in Resources */,
+				16702B4C266CCD76001D92C7 /* GymD.gpx in Resources */,
+				16702B0F266CCD59001D92C7 /* Assets.xcassets in Resources */,
+				16702B4A266CCD76001D92C7 /* GymG.gpx in Resources */,
+				16702B0D266CCD53001D92C7 /* Main.storyboard in Resources */,
+				1674245226BB29A0004C82EA /* GymJ.gpx in Resources */,
+				1698FBC326D11A5F00EBE43E /* Spain_B.gpx in Resources */,
+				16702B48266CCD76001D92C7 /* GymE.gpx in Resources */,
+				16910ED326D0192B0018F547 /* Spain_Rute1.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16702B18266CCD5A001D92C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16702B23266CCD5A001D92C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16702AFB266CCD53001D92C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16702B0A266CCD53001D92C7 /* ViewController.m in Sources */,
+				16702B04266CCD53001D92C7 /* AppDelegate.m in Sources */,
+				16702B15266CCD59001D92C7 /* main.m in Sources */,
+				16702B07266CCD53001D92C7 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16702B16266CCD5A001D92C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16702B1F266CCD5A001D92C7 /* GPSSpooferTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16702B21266CCD5A001D92C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16702B2A266CCD5A001D92C7 /* GPSSpooferUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16702B1C266CCD5A001D92C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16702AFE266CCD53001D92C7 /* GPSSpoofer */;
+			targetProxy = 16702B1B266CCD5A001D92C7 /* PBXContainerItemProxy */;
+		};
+		16702B27266CCD5A001D92C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16702AFE266CCD53001D92C7 /* GPSSpoofer */;
+			targetProxy = 16702B26266CCD5A001D92C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16702B0B266CCD53001D92C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16702B0C266CCD53001D92C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16702B10266CCD59001D92C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16702B11266CCD59001D92C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16702B2C266CCD5A001D92C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16702B2D266CCD5A001D92C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16702B2F266CCD5A001D92C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GTSCQV6ZJ8;
+				INFOPLIST_FILE = GPSSpoofer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Thordal-Enterprise.id12";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16702B30266CCD5A001D92C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GTSCQV6ZJ8;
+				INFOPLIST_FILE = GPSSpoofer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Thordal-Enterprise.id12";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16702B32266CCD5A001D92C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GTSCQV6ZJ8;
+				INFOPLIST_FILE = GPSSpooferTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Jensen.GPSSpooferTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSSpoofer.app/GPSSpoofer";
+			};
+			name = Debug;
+		};
+		16702B33266CCD5A001D92C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GTSCQV6ZJ8;
+				INFOPLIST_FILE = GPSSpooferTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Jensen.GPSSpooferTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSSpoofer.app/GPSSpoofer";
+			};
+			name = Release;
+		};
+		16702B35266CCD5A001D92C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GTSCQV6ZJ8;
+				INFOPLIST_FILE = GPSSpooferUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Jensen.GPSSpooferUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPSSpoofer;
+			};
+			name = Debug;
+		};
+		16702B36266CCD5A001D92C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GTSCQV6ZJ8;
+				INFOPLIST_FILE = GPSSpooferUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jacob-Jensen.GPSSpooferUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPSSpoofer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16702AFA266CCD53001D92C7 /* Build configuration list for PBXProject "GPSSpoofer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16702B2C266CCD5A001D92C7 /* Debug */,
+				16702B2D266CCD5A001D92C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16702B2E266CCD5A001D92C7 /* Build configuration list for PBXNativeTarget "GPSSpoofer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16702B2F266CCD5A001D92C7 /* Debug */,
+				16702B30266CCD5A001D92C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16702B31266CCD5A001D92C7 /* Build configuration list for PBXNativeTarget "GPSSpooferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16702B32266CCD5A001D92C7 /* Debug */,
+				16702B33266CCD5A001D92C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16702B34266CCD5A001D92C7 /* Build configuration list for PBXNativeTarget "GPSSpooferUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16702B35266CCD5A001D92C7 /* Debug */,
+				16702B36266CCD5A001D92C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16702AF7266CCD53001D92C7 /* Project object */;
+}
